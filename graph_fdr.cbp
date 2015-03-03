@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="graph_fdr" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/graph_fdr" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/graph_fdr" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="graph_jrb.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libfdr/LICENSE" />
+		<Unit filename="libfdr/README" />
+		<Unit filename="libfdr/dllist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libfdr/dllist.h" />
+		<Unit filename="libfdr/fields.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libfdr/fields.h" />
+		<Unit filename="libfdr/jrb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libfdr/jrb.h" />
+		<Unit filename="libfdr/jval.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libfdr/jval.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
